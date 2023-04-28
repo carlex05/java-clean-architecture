@@ -19,7 +19,6 @@ public class PetController {
     @Path("/{pet_name}")
     @Produces(MediaType.APPLICATION_JSON)
     public Pet registerUnadoptedPet(@PathParam("pet_name") String petName) {
-        
-        return null;
+        return service.registerUnadoptedPet(petName);
     }
 }
