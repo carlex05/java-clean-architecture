@@ -15,3 +15,7 @@ This repository contains an example of Clean Architecture with Java. This archit
 ![PriceHistory-Página-2](https://user-images.githubusercontent.com/60867448/235045868-7240570d-1ede-45e6-a143-398b119c44ec.jpg)
 
 It is important to remember that the image above aims to illustrate that each circle represents a layer, and that the inner layers should not be aware of the existence of the outer layers. There should be no dependency towards a higher-level layer (less stable), whereas the outer layers do depend on the central ones.
+
+The following diagram provides a clearer depiction of the dependency relationship between each package and how they are distributed among the components of the microservice.
+![PriceHistory-Packages](https://user-images.githubusercontent.com/60867448/235048550-ae499a8c-6c56-4718-8fdc-4717ec88150d.jpg)
+
